@@ -138,9 +138,10 @@ const addRole = () => {
 };
 
 buildTeam = () => {
-    fs.writeFile('team.html', render(employees), err => {
-        err ? console.log(err) : console.log("Team profile created!");
-    })
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR)
+    }
+    fs.writeFileSync(outputPath, render(employees), 'UTF-8')
 }
 
 whatRole();
