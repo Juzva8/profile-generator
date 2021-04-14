@@ -30,5 +30,5 @@ navigate to file where generator is located using your terminal, run comand node
   This project is licensed under the Apache License 2.0 license.
 
 ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at laurynas.juzva@gmail.com. You can find more of my work at [Juzva8](https://github.com/Juzva8/).
+  If you have any questions about the repo you can find more of my work at [Juzva8](https://github.com/Juzva8/).
   
